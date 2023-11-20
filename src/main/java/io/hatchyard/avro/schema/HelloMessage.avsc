@@ -1,0 +1,27 @@
+{
+	"type": "record",
+    "name": "HelloMessage",
+    "namespace": "io.hatchyard.avro.schema",
+	"fields": [
+	    {
+	        "name": "id",
+	        "type": ["null","string"],
+	        "default":null
+	    },
+	    {
+	        "name": "to",
+	        "type": ["null","string"],
+	        "default": null
+	    },
+	    {
+	        "name": "from",
+	        "type": ["null","string"],
+	        "default": null
+	    },
+	    {
+	        "name": "message",
+	        "type": ["null","string"],
+	        "default": null
+	    }
+    ]
+}
